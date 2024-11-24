@@ -1,5 +1,8 @@
-﻿function Route(path, handler, res)
+﻿
+var test = "testInit";
+function Route(path, handler, res)
 {
+    test = "testChanged"
     if(typeof handler[path] === "function")
     {
         console.log(handler[path]());
@@ -16,3 +19,4 @@
 }
 
 exports.Route = Route
+exports.test = test;

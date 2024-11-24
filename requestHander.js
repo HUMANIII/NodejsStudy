@@ -1,4 +1,5 @@
-﻿function requestView()
+﻿// 이거 리턴값을 명시안해도 그냥 리턴이 됨 오류 많이 날거같음 무서움
+function requestView()
 {
     return "requestView";
 }
